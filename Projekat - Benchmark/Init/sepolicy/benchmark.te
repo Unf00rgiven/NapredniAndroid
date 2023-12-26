@@ -1,0 +1,3 @@
+type benchmark, domain;
+type benchmark_exec, domain;
+init_daemon_domain(benchmark);

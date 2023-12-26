@@ -1,0 +1,9 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES:= macro.c
+LOCAL_MODULE:= libmacro
+LOCAL_CFLAHS += -DEXAMPLE_ANDROID
+LOCAL_MODULE_TAGS:= optional
+
+include $(BUILD_EXECUTABLE)
